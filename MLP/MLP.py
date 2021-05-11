@@ -74,7 +74,7 @@ weights_output = np.random.uniform(-1,1,(weights_hidden1.shape[1], output_layer_
 bias_output = np.random.uniform(-1,1,(weights_output.shape[1], 1))
 
 # Set learning rate for update rule and number of iterations to pass overdata
-learning_rate = 0.001
+learning_rate = 0.01
 number_of_iterations = 1000
 
 
